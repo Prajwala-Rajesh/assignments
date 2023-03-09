@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assignment
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            *{
+                margin: 0 auto;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container{
+                display: flex;
+                background-image: linear-gradient(to right,rgb(82, 235, 200),rgb(215, 79, 215));
+                height: 100vh;
+                width: 100vw;
+            }
+            .form{
+                
+                background-color: rgb(247, 245, 243);
+                height: 550px;
+                width: 350px;
+                margin-top: 40px;
+                justify-items: center;
+            }
+            h1{
+                padding-top: 25px;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+            input[type=text] {
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid #000000;
+                width: 100%;
+            }
+            .login{
+                padding-left: 30px;
+                padding-right: 30px;
+                letter-spacing: 1px;
+            }
+            #details{
+                font-size: small;
+            }
+            .input{
+                /* font-size: medium; */
+                padding-bottom: 10px;
+                margin-left: 10px;
+            }
+            .forgot{
+                font-weight: lighter;
+                position: relative;
+                left: 180px;
+                
+                
+            }
+            .fgt{
+                text-decoration: none;
+                color: rgba(58, 55, 55, 0.77);
+            }
+            
+            /* .button{
+                align-items: center;
+            } */
+            .btn{
+                color: white;
+                font-weight: bold;
+                margin: 20px;
+                width: 250px;
+                height: 30px;
+                border-radius: 20px;
+                background-image: linear-gradient(to right,rgb(82, 235, 200),rgb(215, 79, 215));
+                letter-spacing: 1px;
+            
+            }
+            p{
+                margin-top: 20px;
+                text-align: center;
+                font-weight: 500;
+                font-size: small;
+                color: gray;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            .icons{
+                margin-top: 20px;
+                text-align: center;
+            }
+            .fa {
+                margin: 0 auto;
+                font-size: 20px;
+                padding-top: 5px;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+            }
+
+
+            .fa:hover {
+                opacity: 0.9;
+            }
+
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+            .fa-google{
+                background-color: rgb(215, 92, 92);
+                color: white;
+            }
+            .anotherWay{
+                color: gray;
+                text-align: center;
+                font-weight: 600;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .sign{
+                align-items: center;
+                margin: 15px 0px 0px 120px;
+            }
+            .signup{
+                text-decoration: none;
+                color: black;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .inputIcon{
+                display: flex;
+            }
+            .icon{
+                color: rgba(128, 128, 128, 0.565);
+                display: inline;
+                font-weight: lighter;
+            }
+   
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+               
+                    <h1>Login</h1>
+                    <form action="" method="get" class="login">
+                        <label for="" class="user" id="details">Username</label><br><br>
+                    <div class="inputIcon">
+                        <i><a href="#" class="fa fa-user icon"></a></i>
+                        <input type="text" name="" id="uname" placeholder="Type your name here" class="input uname" ><br><br>
+                        <span class="uerror"></span>
+                    </div>
+                    <br>
+                    <label for="" class="Pswd" id="details">Password</label><br><br>
+                    <div class="inputIcon">
+                        <i><a href="#" class="fa fa-lock icon"></a></i>
+                        <input type="text" id="pwd" placeholder="Type your password" class="input " ><br><br>
+                    </div><br>
+                    <h5 class="forgot"><a href="" class="fgt">Forgot Password?</a></h5>
+                    <div class="button">
+                        <button class="btn" type="submit">LOGIN</button>
+                    </div>
+                    <p>Or Sign Up Using</p>
+                    <div class="icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                    </div><br><br><br>
+                    <h6 class="anotherWay">Or Sign Up using</h6>
+                    <div class="sign">
+                        <a href="" class="signup">SIGNUP</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="assgn.js"></script>
+    </body>
+</html>
